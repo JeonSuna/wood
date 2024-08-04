@@ -1,0 +1,98 @@
+/*reset*/
+body{
+    margin: unset;
+    padding: unset;
+}
+h1,h2{
+    margin: unset;
+    padding: unset;
+}
+img{
+    display: block;
+}
+
+/*layout*/
+/*강사님..제가 모르고 배경을 또 깔고 wrapper에 넓이를 줘버려서..엉망진창
+반응형이 안되네요ㅜㅜ 다시 갈아 엎기에는,, 제출시간 안에 못할 거 같아서.
+ 그냥 냅니다ㅜ
+추후에 다시 다듬어 볼게요..화이팅*/
+.wrapper{
+    width:1304px;
+    margin: 0 auto;
+}
+
+/*Design*/
+body{
+    background-color: black;
+    font-family: Arial;
+    color:#FFA500;
+}
+
+.wood_header{
+    background-image: url(images/header-bg.png);
+    padding: 100px 172px 0;
+    
+}
+.header_contents{
+    border:30px solid #FFA500;
+    padding:60px 296px 260px 90px;
+    background-image: url(images/container-bg.png);
+    background-repeat: no-repeat;
+    background-position: 560px 50px ;
+}
+.header_contents h1{
+    font-size: 32px;
+    margin-bottom: 20px; 
+    border-bottom: 4px solid #FFA500;
+    padding-bottom: 5px;
+    width:fit-content;
+    letter-spacing: 4px;
+}
+span{
+    font-size: 32px;
+    font-weight:normal;
+}
+
+.header_contents p{
+    line-height: 1.8;
+}
+
+
+.section_contents{
+    background-color: #ddd;
+    text-align: center;
+    margin-top: -260px;
+    padding: 30px;
+    
+}
+
+.section{
+    background-color: white;
+    margin-left: 30px;
+    display: inline-block;
+    border-radius: 10px;
+    overflow: hidden;
+    
+   
+   
+}
+.section h2{
+    font-size: 16px;
+    background-image: url(images/play.png);
+    padding-right: 50px;
+    background-repeat: no-repeat;
+    padding: 10px;
+    background-position: right center;
+    text-align: left;
+    border-top: 4px solid #FFA500;
+}
+.wood_footer{
+    background-color: #FFFFFF;
+    padding: 20px;
+    color:#AAA;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    box-shadow: 0 0 3px;
+    letter-spacing: 3px;
+}
